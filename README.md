@@ -7,3 +7,6 @@ Advanced Project Management, great website for great people
 * [Github](https://github.com/Yann21/project-management)
 * [Hugo Theme](https://themes.gohugo.io/vex-hugo/)
 * Miro
+
+## Dependencies
+`brew install hugo`
