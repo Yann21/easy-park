@@ -10,3 +10,8 @@ Advanced Project Management, great website for great people
 
 ## Dependencies
 `brew install hugo`
+
+## Test the website
+1. `cd src/exampleSite`
+2. `hugo server --themesDir ../..`
+3. Open `localhost:portnumber/vex-hugo` in your browser
