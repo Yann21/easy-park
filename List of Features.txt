@@ -15,7 +15,7 @@ Sellers’ side:
   Login
   Calendar (availability of the parking slots)
   Avalaible spaces
-  Car's information (registration plate)
+  Car information (registration plate)
 
 Transportation medium:
   Bike
