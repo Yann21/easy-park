@@ -1,0 +1,8 @@
+---
+  - name: test
+    hosts: linux
+    tasks:
+      - name: ensure vim is there
+        apt:
+          name: apt
+          state: latest
