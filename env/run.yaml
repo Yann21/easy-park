@@ -4,5 +4,6 @@
     tasks:
       - name: ensure vim is there
         apt:
-          name: apt
+          name: apt-get
           state: latest
+        become_user: root
