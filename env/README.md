@@ -3,7 +3,7 @@
 1. `brew install vagrant`
 2. `brew install virtualbox`
 3. `cd ` this directory
-4. `vagrant up --provision`
+4. `vagrant up --provision`\
 Wait for the image to download and the VM to load.
 5. When you reach the terminal, run `sudo startxfce4` to open the desktop environment.
 6. Have fun in your new VM :)
