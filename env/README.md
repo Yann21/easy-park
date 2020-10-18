@@ -5,6 +5,7 @@
 3. `cd ` this directory
 4. `vagrant up --provision`
 Wait for the image to download and the VM to load.
+5. Have fun in your new VM :)
 
 
 ### Don't forget to add /env/.vagrant/ to your .gitignore
