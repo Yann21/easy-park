@@ -38,7 +38,7 @@ We will provide a user manual document to get build instruction and other inform
 Will be uploaded on week 12 of the project 
 
 ## Authors
-Yann Hoffman, Abetare Shabani, Pin Zhu, Guina Weng
+Yann Hoffmann, Abetare Shabani, Pin Zhu, Guina Weng
 
 ## Note
 This website was developed as part of a school project, Advanced Project Management, great website for great people.
