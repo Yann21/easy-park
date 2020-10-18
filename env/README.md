@@ -14,6 +14,6 @@ PS: @Yann21: "You're free to install whatever programs you want inside (sublime,
 ### Don't forget to add /env/.vagrant/ to your .gitignore
 1. `touch $PROJECT_DIR/.gitignore`
 2. `vim .gitignore`
-3. Add the following lines
-* `.gitignore`
-* `/env/.vagrant/`
+3. Add the following lines \
+`.gitignore` \
+`/env/.vagrant/`
