@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+  	<div class="d-flex justify-content-center">
+		<div class="brand_logo_container">
+          {{ range .Params.images }}
+          <div data-image="{{ . | absURL }}">
+            <img class="img-fluid w-100" src="{{ . | absURL }}" alt="logo-image">
+          </div>
+          {{ end }}
+    	</div>
+    </div>
+    	<div class="login-form">
+			<form id="forgot-password-form" class="text-left" action="{{ site.Params.forgot_password_action }}"  method="POST">
+				<div class="etc-login-form">
+					<p>When you fill in your registered email address, you will be sent instructions on how to reset your password.</p>
+				</div>
+				<div class="login-form-main-message"></div>
+					<div class="main-login-form">
+						<div class="login-group">
+							<div class="form-group">
+								<label for="fp_email" class="sr-only">Email address</label>
+								<input type="text" class="form-control" id="fp_email" name="fp_email" placeholder="email address">
+							</div>
+						</div>
+						<button type="submit" class="btn btn-main btn-main-sm">{{ i18n "send" }}</button>
+					</div>
+					<div class="etc-login-form">
+						<p>already have an account? <a href="http://localhost:1313/vex-hugo/sign-in">login here</a></p>
+						<p>new user? <a href="http://localhost:1313/vex-hugo/register_user">create new account</a></p>
+					</div>
+				</form>
+			</div>
+			</div>
+		</div>
+ 	</div>
+</section>
+
+{{ end }}
