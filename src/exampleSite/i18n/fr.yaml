@@ -2,7 +2,7 @@
   translation: "Add to Cart"
   
 - id: "send"
-  translation: "Send Now"
+  translation: "Send now"
   
 - id: "subscribe"
   translation: "Subscribe"
@@ -18,3 +18,9 @@
   
 - id: "subscribe"
   translation: "Subscribe"
+
+- id: "send_data"
+  translation: "Sign in"
+
+- id: "register_user"
+  translation: "Register"
