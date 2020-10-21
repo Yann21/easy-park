@@ -1,7 +1,7 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Believe in Technology, Make the change"
+  title : "Believe in Technology, Take the leap"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
   image : "images/watch.png"
   button:
@@ -21,12 +21,12 @@ features:
   - title : "Smooth Touch"
     icon : "tf-ion-ios-alarm-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    
+
     # feature item loop
   - title : "Elegant Design"
     icon : "tf-ion-ios-bell-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    
+
     # feature item loop
   - title : "Easy Pricing"
     icon : "tf-ion-ios-cart-outline"
@@ -77,7 +77,7 @@ about_product:
         enable : false
         label : "Check Features"
         link : "#"
-        
+
     # about product item loop
     - image : "images/showcase/showcase-3.png"
       title : "Lorem ipsum dolor sit amet."
@@ -115,13 +115,13 @@ testimonial:
       designation : "CEO, Themefisher"
       image : "images/avater.png"
       content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      
+
     # testimonial item loop
     - name : "Jonathon Andrew"
       designation : "CEO, Themefisher"
       image : "images/avater.png"
       content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      
+
     # testimonial item loop
     - name : "Jonathon Andrew"
       designation : "CEO, Themefisher"
