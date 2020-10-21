@@ -17,9 +17,9 @@ const employeeSchema  = new Schema({
   age: {
     type: Number
   },
-  // avatar: {
-  //   type: String
-  // }
+  avatar: {
+    type: String
+  }
 }, {timestamps: true})
 
 const Employee = mongoose.model('Employee', employeeSchema)
