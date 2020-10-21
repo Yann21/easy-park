@@ -37,7 +37,6 @@ const show = (req, res, next) => {
 const store = (req, res, next) => {
   let newClient = new Client({
     name: req.body.name,
-    designation: req.body.designation,
     email: req.body.email,
     phone: req.body.phone,
     age: req.body.age,
@@ -72,7 +71,6 @@ const update = (req, res, next) => {
 
   let updateData = {
     name: req.body.name,
-    designation: req.body.designation,
     email: req.body.email,
     phone: req.body.phone,
     age: Req.body.age,
