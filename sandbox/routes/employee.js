@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 
 const EmployeeController = require('../controllers/EmployeeController')
-const upload = require('../middleware/upload')
+const upload             = require('../middleware/upload')
 
 router.get('/', EmployeeController.index)
 router.post('/show', EmployeeController.show)
