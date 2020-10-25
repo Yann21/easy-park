@@ -43,12 +43,12 @@ URL = "/"
 weight = 1
 
 [[menu.main]]
-name = "Find a parking place"
+name = "Discover"
 URL = "products"
 weight = 2
 
 [[menu.main]]
-name = "Tips"
+name = "Find Near You"
 URL = "blog"
 weight = 3
 
