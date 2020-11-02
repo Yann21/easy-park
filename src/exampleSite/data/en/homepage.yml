@@ -1,7 +1,7 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Hassle-free parking, All across Europe"
+title : "Hassle-free parking, All across Europe"
   content : "Here at Easy Park we value your time and your ability
   to drive anywhere you want without having to be worried about a parking your car.
   Now you can book your parking place in a safe location ahead of time at

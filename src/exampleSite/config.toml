@@ -109,10 +109,12 @@ snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1
 enable = true
 preloader = "" # use .png , .svg or .gif format
 
+################################### Login #####################################
 #sign_in_form_action
-sign_in_form_action = "#" #sign in form should be fixed to POST data
+# IMPORTANT: Accepts raw POST entry not form-data
+sign_in_form_action = "http://localhost:3000/api/login" #sign in form should be fixed to POST data
 #register_user_form_action
-register_user_form_action = "#" #register form should be fixed to POST data
+register_user_form_action = "http://localhost:3000/api/register" #register form should be fixed to POST data
 #forgot_password_action
 forgot_password_action = "#" #email POST data
 #send_user_data_action
