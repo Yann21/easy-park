@@ -1,6 +1,6 @@
 ################################### Default Configuration ############################
 baseurl = "http://demo.themefisher.com/vex-hugo/"
-title = "Vex | hugo landing page template"
+title = "Easy Park | Parking simplified"
 theme = "src"
 # post excert
 summarylength = "20"
@@ -43,12 +43,12 @@ URL = "/"
 weight = 1
 
 [[menu.main]]
-name = "Products"
+name = "Discover"
 URL = "products"
 weight = 2
 
 [[menu.main]]
-name = "Blog"
+name = "Find Near You"
 URL = "blog"
 weight = 3
 
@@ -69,10 +69,10 @@ URL = "sign-in"
 weight = 6
 
 # footer menu
-[[menu.footer]]
-name = "Blog"
-URL = "blog"
-weight = 1
+# [[menu.footer]]
+# name = "Blog"
+# URL = "blog"
+# weight = 1
 
 [[menu.footer]]
 name = "Contact"
@@ -100,7 +100,7 @@ author = "Themefisher"
 # currency
 currency = "$"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/xaylozwz" # contact form works with https://formspree.io
 # snipcart public api key
 snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
 
