@@ -1,3 +1,5 @@
+[![github](https://img.shields.io/badge/git-github-lightgray.svg)](https://github.com/Yann21/bigdata-framework-comparison) [![Issues](https://img.shields.io/badge/issues-github-green.svg)](https://github.com/Yann21/bigdata-framework-comparison/issues)
+
 # EasyPark
 Copyright © 2020 EasyPark Team
 
