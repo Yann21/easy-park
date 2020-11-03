@@ -1,5 +1,5 @@
-# EasyParking
-Copyright © 2020 EasyParking Team
+# EasyPark
+Copyright © 2020 EasyPark Team
 
 A website that helps people find the nearest parking spot based on their location.
 
