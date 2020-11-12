@@ -64,9 +64,14 @@ URL = "contact"
 weight = 5
 
 [[menu.main]]
+name = "Seller"
+URL = "seller"
+weight = 6
+
+[[menu.main]]
 name = "Sign in"
 URL = "sign-in"
-weight = 6
+weight = 7
 
 # footer menu
 # [[menu.footer]]
