@@ -118,7 +118,7 @@ register_user_form_action = "http://localhost:3000/api/register" #register form 
 #forgot_password_action
 forgot_password_action = "#" #email POST data
 #send_user_data_action
-send_user_data_action = "#" #send user data to DB
+send_user_data_action = "http://localhost:3000/api/register" #send user data to DB
 
 # Subscription
 [params.subscription]
@@ -134,7 +134,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Developed By [Easy Park Dev Team](https://themefisher.com/)"
 
 
 ################################### French language #####################################
@@ -144,4 +144,4 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Developed By [Easy Park Dev Team](https://themefisher.com/)"

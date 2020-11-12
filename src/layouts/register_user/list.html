@@ -2,52 +2,55 @@
 
 <section class="section">
     <div class="container">
-        <form class="form-horizontal" role="form" action="{{ site.Params.send_user_data_action }}" method="POST">
+        <form class="form-horizontal" role="form"
+        action="http://localhost:3000/api/register"
+        method="POST" enctype="application/json">
+
             <h2>{{ .Params.title }}</h2>
             <div class="form-group">
-                <label for="firstName" class="col-sm-3 control-label">{{ .Params.first_name }}</label>
+                <label for="name" class="col-sm-3 control-label">{{ .Params.first_name }}</label>
                 <div class="col-sm-9">
-                    <input type="text" id="firstName" placeholder="First Name" class="form-control" autofocus>
+                    <input type="string" name="name" placeholder="First Name" class="form-control" autofocus>
                 </div>
             </div>
-            <div class="form-group">
+            <!-- <div class="form-group">
                 <label for="lastName" class="col-sm-3 control-label">{{ .Params.last_name }}</label>
                 <div class="col-sm-9">
                     <input type="text" id="lastName" placeholder="Last Name" class="form-control" autofocus>
                 </div>
-            </div>
+            </div> -->
             <div class="form-group">
                 <label for="email" class="col-sm-3 control-label">{{ .Params.email }}* </label>
                 <div class="col-sm-9">
-                    <input type="email" id="email" placeholder="Email" class="form-control" name= "email">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="password" class="col-sm-3 control-label">{{ .Params.password }}*</label>
-                <div class="col-sm-9">
-                    <input type="password" id="password" placeholder="Password" class="form-control">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="password" class="col-sm-3 control-label">Confirm Password*</label>
-                <div class="col-sm-9">
-                    <input type="password" id="password" placeholder="Password" class="form-control">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="birthDate" class="col-sm-3 control-label">{{ .Params.date_of_birth }}*</label>
-                <div class="col-sm-9">
-                    <input type="date" id="birthDate" class="form-control">
+                    <input type="string" name="email" placeholder="Email" class="form-control" name= "email">
                 </div>
             </div>
             <div class="form-group">
                 <label for="phoneNumber" class="col-sm-3 control-label">{{ .Params.phone_number }} </label>
                 <div class="col-sm-9">
-                    <input type="phoneNumber" id="phoneNumber" placeholder="Phone number" class="form-control">
+                    <input type="string" name="phone" placeholder="Phone number" class="form-control">
                     <span class="help-block">Your phone number won't be disclosed anywhere </span>
                 </div>
             </div>
             <div class="form-group">
+                <label for="password" class="col-sm-3 control-label">{{ .Params.password }}*</label>
+                <div class="col-sm-9">
+                    <input type="string" name="password" placeholder="Password" class="form-control">
+                </div>
+            </div>
+            <!-- <div class="form-group">
+                <label for="password" class="col-sm-3 control-label">Confirm Password*</label>
+                <div class="col-sm-9">
+                    <input type="password" id="password" placeholder="Password" class="form-control">
+                </div>
+            </div> -->
+            <!-- <div class="form-group">
+                <label for="birthDate" class="col-sm-3 control-label">{{ .Params.date_of_birth }}*</label>
+                <div class="col-sm-9">
+                    <input type="date" id="birthDate" class="form-control">
+                </div>
+            </div> -->
+            <!-- <div class="form-group">
                 <label class="control-label col-sm-3">{{ .Params.gender }}</label>
                 <div class="col-sm-6">
                     <div class="row">
@@ -63,12 +66,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="form-group">
+            </div> -->
+            <!-- <div class="form-group">
                 <div class="col-sm-9 col-sm-offset-3">
                     <span class="help-block">*Required fields</span>
                 </div>
-            </div>
+            </div> -->
             <button type="submit" class="btn btn-main btn-main-sm">{{ i18n "register_user" }}</button>
         </form>
   </div>
