@@ -11,14 +11,13 @@ images:
 description : "this is meta description"
 
 # product Price
-price: "30.00"
-discount_price: "24.99"
+price: "4.99 / hour"
 
 # product variation
-colors : ["black","white","gray"]
-sizes : ["small","medium","large"]
+sizes : ["SUV","Micro","MPV"]
 
 draft: false
 ---
 
-Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.
+Underground parking with good access to central locations in the town center.
+Top security, fairly unattended even during peak hours.

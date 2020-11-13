@@ -1,7 +1,7 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Hassle-free parking, All across Europe"
+  title : "Number 1 Marketplace for Parking Spaces"
   content : "Here at Easy Park we value your time and your ability
   to drive anywhere you want without having to be worried about a parking your car.
   Now you can book your parking place in a safe location ahead of time at
@@ -33,7 +33,7 @@ features:
     # feature item loop
   - title : "Convenience"
     icon : "tf-ion-ios-cart-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "It's never been this easy to plan your entire evening."
 
 
   # feature at the right of the image
@@ -41,28 +41,27 @@ features:
     # feature item loop
   - title : "Available 24/7"
     icon : "tf-ion-ios-alarm-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "No more bad surprises with Easy Park."
 
     # feature item loop
   - title : "Transparent pricing"
     icon : "tf-ion-ios-bell-outline"
-    content : "You know what you pay for and you choose how long you  want to stay."
+    content : "You know what you pay for and you choose how long you want to stay."
 
     # feature item loop
-  - title : "Easy Pricing"
+  - title : "Instant confirmation"
     icon : "tf-ion-ios-cart-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "The processing of your reservation is done in such a way that it feels next to instantaneous."
 
 
 ############################# promo ############################
 promo:
   enable : true
-  image : "images/watch.png"
-  title : "Designed by professionals, the benefit for creative gigs"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+  image : "images/unilu.png"
+  title : "Designed by a team of hard-working tech students."
+  content : "Born of a desire to solve real-life problems out of our own experience, we decided
+            to tackle one of the biggest challenges in fast-growing metropolitan areas. Every
+           major problem requires bold thinking and that's what you'll find here."
 
 
 ############################# About Product #######################
@@ -71,22 +70,23 @@ about_product:
   title : "Why Choose Easy Park?"
   items:
     # about product item loop
-    - image : "images/showcase/showcase-4.png"
-      title : "95% Customer Satisfaction"
-      content : "Most of the users who have tried easy park report they would recommend
-      it to a friend. Thanks to the unbeatable locations we are the
-      number one choice when it comes to mobility."
+
+    # about product item loop
+    - image : "images/showcase/showcase-3.png"
+      title : "Goodbye to parking headaches"
+      content : "Affordable parking spaces as far as the eyes can see. How is it possible?
+                 Simple, we streamline the entire business logic of renting parking places
+                 by applying cost-saving and efficiency-inducing tech principles."
       button:
         enable : false
         label : "Check Features"
         link : "#"
 
-    # about product item loop
-    - image : "images/showcase/showcase-3.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
+    - image : "images/showcase/showcase-4.png"
+      title : "75% Customer Retention"
+      content : "Most of the users who have tried easy park report they would recommend
+      it to a friend. Thanks to the unbeatable locations we are the
+      number one choice when it comes to mobility."
       button:
         enable : false
         label : "Check Features"
@@ -115,7 +115,7 @@ testimonial:
   title : "Our Reviews"
   testimonial_item:
     # testimonial item loop
-    - name : "Jonathon Andrew"
+    - name : "Marija Scharapowa"
       designation : "VC, Y-Combinator"
       image : "images/avater.png"
       content : "Rarely have I come across a startup this masterfully run.
@@ -124,20 +124,20 @@ testimonial:
       proud that they can count me among their very early investors."
 
     # testimonial item loop
-    - name : "Jonathon Andrew"
+    - name : "Neil Armstrong"
       designation : "CEO, Lyft"
-      image : "images/avater.png"
+      image : "images/avater2.png"
       content : "I told the head of operations at the time \"Why the heck are you bothering
-      me with this?\" as we were first setting foot in european market.
-      Little did I know that the name would stick with us for a long time.
+      me with this?\" as we were first setting foot in the european market.
+      Little did I know that that name would stick with us for a long time.
       Easy Park
       sure gave us a run for our money, but all in all, the
-      partnership we have built with them has been one of the most successful tie-ups
+      partnership we have built has been one of the most successful tie-ups
       in the entire corporate history. I look forward to many more years of
       success."
 
     # testimonial item loop
-    - name : "John Doe"
+    - name : "John Dough"
       designation : "Tech Columnist, Washington Post"
-      image : "images/avater.png"
+      image : "images/avater3.png"
       content : "Who said the european tech scene was dead?"

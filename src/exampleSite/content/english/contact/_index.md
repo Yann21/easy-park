@@ -4,10 +4,10 @@ description : "this is a meta description"
 
 office:
   title : "Central Office"
-  mobile : "0124857985320"
-  email : "demo@email.com"
+  mobile : "+352 661 223 225"
+  email : "contact@ep.com"
   location : "Luxembourg, Luxembourg"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+  content : "Our central office is located in Luxembourg city, main street. Please contact us the following form."
 
 # opening hour
 opennig_hour:

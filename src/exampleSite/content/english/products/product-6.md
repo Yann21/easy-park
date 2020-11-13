@@ -1,5 +1,5 @@
 ---
-title: "Realme Watch"
+title: "Salt Lake City, 401 Wall Mart"
 date: 2019-10-17T11:22:16+06:00
 images: 
   - "images/showcase/showcase-6.png"
@@ -11,14 +11,13 @@ images:
 description : "this is meta description"
 
 # product Price
-price: "30.00"
+price: "3.99 / hour"
 discount_price: "25.00"
 
 # product variation
-colors : ["black","white","gray"]
-sizes : ["small","medium","large"]
+sizes : ["All"]
 
 draft: false
 ---
 
-Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.
+Convenient place for a shopping afternoon or to visit several landmarks.

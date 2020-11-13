@@ -1,5 +1,5 @@
 ---
-title: "Redmi Watch"
+title: "Lousiana outdoors"
 date: 2019-10-17T11:22:16+06:00
 image: "images/showcase/showcase-5.png"
 images: 
@@ -12,14 +12,12 @@ images:
 description : "this is meta description"
 
 # product Price
-price: "30.00"
-discount_price: "25.00"
+price: "2.49* / hour"
 
 # product variation
-colors : ["black","white","gray"]
-sizes : ["small","medium","large"]
+sizes : ["All"]
 
 draft: false
 ---
 
-Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.
+Just across Dale's Alley Fishing Club. Special price for long stays.

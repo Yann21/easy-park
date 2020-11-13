@@ -1,5 +1,5 @@
 ---
-title: "Motorola Watch"
+title: "Luxembourg Knuedler"
 date: 2019-10-17T11:22:16+06:00
 images: 
   - "images/showcase/showcase-4.png"
@@ -11,14 +11,12 @@ images:
 description : "this is meta description"
 
 # product Price
-price: "30.00"
-discount_price: "25.00"
+price: "4.99 / hour"
 
 # product variation
-colors : ["black","white","gray"]
 sizes : ["small","medium","large"]
 
 draft: false
 ---
 
-Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.
+One of our very first locations. Enjoy special parking stand and car wash.
