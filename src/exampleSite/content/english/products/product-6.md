@@ -12,7 +12,6 @@ description : "this is meta description"
 
 # product Price
 price: "3.99 / hour"
-discount_price: "25.00"
 
 # product variation
 sizes : ["All"]
