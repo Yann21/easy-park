@@ -7,7 +7,7 @@ office:
   mobile : "+352 661 223 225"
   email : "contact@ep.com"
   location : "Luxembourg, Luxembourg"
-  content : "Our central office is located in Luxembourg city, main street. Please contact us the following form."
+  content : "Our central office is located in Luxembourg city, main street. Please contact us through the following form."
 
 # opening hour
 opennig_hour:
