@@ -127,3 +127,4 @@ We are available for Hiring of your next HUGO project. Drop Us a mail [mehedi@th
 | **Agico** | **Biztrox** | **Bexer** |
 | [![Dtox](https://gethugothemes.com/wp-content/uploads/2019/06/hugo-theme-Dtox.jpg)](https://gethugothemes.com/products/dtox-hugo-theme/) | [![Hargo](https://gethugothemes.com/wp-content/uploads/edd/2019/10/Hargo.png)](https://gethugothemes.com/products/hargo/) | [![all](https://gethugothemes.com/wp-content/uploads/2019/12/get-more-hugo-themes.png)](https://gethugothemes.com/shop/) |
 | **Dtox** | **Hargo** | **More Hugo Themes** |
+ 
