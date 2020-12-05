@@ -6,7 +6,8 @@ const bodyParser  = require('body-parser')
 const EmployeeRoute = require('./routes/employee')
 const AuthRoute     = require('./routes/auth')
 
-mongoose.connect('mongodb://localhost:27017/testdb', {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('mongodb://127.0.0.1:27017/easy_park', {useNewUrlParser: true, useUnifiedTopology: true})
+//mongoose.connect('mongodb://localhost:27017/testdb', {useNewUrlParser: true, useUnifiedTopology: true})
 const db = mongoose.connection
 
 db.on('error', (err) => {
