@@ -1,0 +1,21 @@
+[
+  {
+  "_id": "P1",
+  "countryID": "ParkingPol",
+  "name": "Parking Warsaw Spire",
+  "lunchTime": "1230-1400",
+  "dinnerTime": "1900-2200",
+  "totalNum": "",
+  "numSizeS": "",
+  "numSizeM": "",
+  "numSizeL": "",
+  "numDisable": "",
+  "price": "",
+  "address": "Warsaw Spire, plac Europejski 1",
+  "zipCode": "00-844, Warsaw",
+  "loc": {
+  "type": "Point",
+  "coordinates": [52.232430, 20.984290]
+  } 
+  }
+  ]

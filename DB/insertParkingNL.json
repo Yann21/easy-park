@@ -1,0 +1,21 @@
+[
+  {
+  "_id": "P1",
+  "countryID": "ParkingNL",
+  "name": "P1 Parking Amsterdam Center",
+  "lunchTime": "1230-1400",
+  "dinnerTime": "1900-2200",
+  "totalNum": "",
+  "numSizeS": "",
+  "numSizeM": "",
+  "numSizeL": "",
+  "numDisable": "",
+  "price": "",
+  "address": "Prins Hendrikkade 20A",
+  "zipCode": "1012 TL, Amsterdam",
+  "loc": {
+  "type": "Point",
+  "coordinates": [52.378810, 4.896780]
+  } 
+  }
+  ]

@@ -1,0 +1,21 @@
+[
+  {
+  "_id": "P1",
+  "countryID": "ParkingIt",
+  "name": "Colosseo Park",
+  "lunchTime": "1230-1400",
+  "dinnerTime": "1900-2200",
+  "totalNum": "",
+  "numSizeS": "",
+  "numSizeM": "",
+  "numSizeL": "",
+  "numDisable": "",
+  "price": "",
+  "address": "Via Ostilia 48",
+  "zipCode": "00184, Rome",
+  "loc": {
+  "type": "Point",
+  "coordinates": [41.888809, 12.495110]
+  } 
+  }
+  ]

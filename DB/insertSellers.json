@@ -1,0 +1,65 @@
+[
+  {
+  "_id": "seller0001",
+  "lastName": "Hoffmann",
+  "firstName": "Yann",
+  "username": "YannF",
+  "password": "123456y",
+  "birthday": "xx/xx/xxxx",
+  "email": "yann.hoffmann.002@student.uni.lu",
+  "age": "xx",
+  "sex": "M",
+  "address": "rue xxxx",
+  "phone": "+352xxxxxxxxx",
+  "parkingSpaceAddress": "rue xxxx",
+  "parkingSpaceID": "46D"
+  },
+  
+  {
+  "_id": "seller0002",
+  "lastName": "Shabani",
+  "firstName": "Abetare",
+  "username": "AbetA",
+  "password": "123456a",
+  "birthday": "xx/xx/xxxx",
+  "email": "abetare.shabani.001@student.uni.lu",
+  "age": "xx",
+  "sex": "F",
+  "address": "rue xxxx",
+  "phone": "+352xxxxxxxxx",
+  "parkingSpaceAddress": "rue xxxx",
+  "parkingSpaceID": "20B"
+  },
+  
+  {
+  "_id": "seller0003",
+  "lastName": "Zhu",
+  "firstName": "Pin",
+  "username": "PinZ",
+  "password": "123456p",
+  "birthday": "xx/xx/xxxx",
+  "email": "pin.zhu.001@student.uni.lu",
+  "age": "xx",
+  "sex": "F",
+  "address": "rue xxxx",
+  "phone": "+352xxxxxxxxx",
+  "parkingSpaceAddress": "rue xxxx",
+  "parkingSpaceID": "66A"
+  },
+  
+  {
+  "_id": "seller0004",
+  "lastName": "Weng",
+  "firstName": "Guina",
+  "username": "GuinW",
+  "password": "123456g",
+  "birthday": "xx/xx/xxxx",
+  "email": "guina.weng.001@student.uni.lu",
+  "age": "xx",
+  "sex": "F",
+  "address": "rue xxxx",
+  "phone": "+352xxxxxxxxx",
+  "parkingSpaceAddress": "rue xxxx",
+  "parkingSpaceID": "55C"
+  }
+  ]

@@ -1,0 +1,21 @@
+[
+  {
+  "_id": "P1",
+  "countryID": "ParkingFr",
+  "name": "Eiffel tour",
+  "lunchTime": "1230-1400",
+  "dinnerTime": "1900-2200",
+  "totalNum": "",
+  "numSizeS": "",
+  "numSizeM": "",
+  "numSizeL": "",
+  "numDisable": "",
+  "price": "",
+  "address": "18 Avenue de Suffren",
+  "zipCode": "75015, Paris",
+  "loc": {
+  "type": "Point",
+  "coordinates": [48.855870, 2.293290]
+  } 
+  }
+  ]

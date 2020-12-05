@@ -1,0 +1,21 @@
+[
+  {
+  "_id": "P1",
+  "countryID": "ParkingBel",
+  "name": "BePark",
+  "lunchTime": "1230-1400",
+  "dinnerTime": "1900-2200",
+  "totalNum": "",
+  "numSizeS": "",
+  "numSizeM": "",
+  "numSizeL": "",
+  "numDisable": "",
+  "price": "",
+  "address": "Avenue des Arts 53",
+  "zipCode": "1000, Brussels",
+  "loc": {
+  "type": "Point",
+  "coordinates": [50.841490, 4.366930]
+  } 
+  }
+  ]

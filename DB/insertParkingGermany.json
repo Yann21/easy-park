@@ -1,0 +1,21 @@
+[
+  {
+  "_id": "P1",
+  "countryID": "ParkingGer",
+  "name": "Cheap parking",
+  "lunchTime": "1230-1400",
+  "dinnerTime": "1900-2200",
+  "totalNum": "",
+  "numSizeS": "",
+  "numSizeM": "",
+  "numSizeL": "",
+  "numDisable": "",
+  "price": "",
+  "address": "Niederkirchnerstrasse 3-5",
+  "zipCode": "10117, Berlin",
+  "loc": {
+  "type": "Point",
+  "coordinates": [52.507370, 13.383040]
+  } 
+  }
+  ]

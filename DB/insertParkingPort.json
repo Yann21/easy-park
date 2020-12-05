@@ -1,0 +1,21 @@
+[
+  {
+  "_id": "P1",
+  "countryID": "ParkingPor",
+  "name": "Parque Saba Praça do Municipio",
+  "lunchTime": "1230-1400",
+  "dinnerTime": "1900-2200",
+  "totalNum": "",
+  "numSizeS": "",
+  "numSizeM": "",
+  "numSizeL": "",
+  "numDisable": "",
+  "price": "",
+  "address": "Praça do Municipio",
+  "zipCode": "1200-005, Lisbon",
+  "loc": {
+  "type": "Point",
+  "coordinates": [38.708280, -9.139230]
+  } 
+  }
+  ]

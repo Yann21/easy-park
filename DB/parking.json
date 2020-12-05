@@ -1,0 +1,68 @@
+[
+  {
+  "_id": "ParkingLux",
+  "country": "Luxembourg",
+  },
+  
+  {
+  "_id": "ParkingFr",
+  "country": "France",
+  },
+  
+  {
+  "_id": "ParkingEsp",
+  "country": "Spain",
+  },
+  
+  {
+  "_id": "ParkingIt",
+  "country": "Italy",
+  },
+  
+  {
+  "_id": "ParkingGer",
+  "country": "Germany",
+  },
+  
+  {
+  "_id": "ParkingBel",
+  "country": "Belgium",
+  },
+  
+  {
+  "_id": "ParkingNL",
+  "country": "Netherlands",
+  },
+  
+  {
+  "_id": "ParkingPor",
+  "country": "Portugual",
+  },
+  
+  {
+  "_id": "ParkingSwi",
+  "country": "Switzerland",
+  },
+  
+  {
+  "_id": "ParkingPol",
+  "country": "Poland",
+  },
+  
+  {
+  "_id": "ParkingGBP",
+  "country": "England",
+  },
+  
+  {
+  "_id": "ParkingRus",
+  "country": "Russia",
+  },
+  
+  {
+  "_id": "ParkingUSA",
+  "country": "USA",
+  }
+  
+  ] 
+
