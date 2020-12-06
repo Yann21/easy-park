@@ -5,7 +5,7 @@ image: "images/showcase/gare_2.png"
 website: "https://www.bepark.eu/en/parking/country-lu/"
 latitude: "49.601517560190935"
 longtitude: "6.1339077401273725"
-price: "8.99"
+price: "13.99"
 description : "this is a meta description"
 draft: false
 ---

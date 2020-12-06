@@ -1,4 +1,114 @@
 {{ define "main" }}
+ <link data-chunk="bundle" rel="stylesheet" href="https://static.justpark.com/web/bundle.ef6ff001487ca64ab3b8.css">
+<style type="text/css">
+  #map {
+    width: 500px;
+    height: 300px;
+  }
+  #reserve{
+    margin-top: 30px;
+
+  }
+ </style>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+ <script>
+    function initMap() {
+      const directionsRenderer = new google.maps.DirectionsRenderer();
+      const directionsService = new google.maps.DirectionsService();
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 14, 
+        center: { lat: 49.600117097097446, lng: 6.1331618286266885 },
+      });
+      directionsRenderer.setMap(map);
+      calculateAndDisplayRoute(directionsService, directionsRenderer);
+      document.getElementById("mode").addEventListener("change", () => {
+        calculateAndDisplayRoute(directionsService, directionsRenderer);
+      });
+    }
+
+    function calculateAndDisplayRoute(directionsService, directionsRenderer) {
+      const selectedMode = document.getElementById("mode").value;
+      var x = parseFloat(document.getElementById("latitude").textContent)
+      var y = parseFloat(document.getElementById("longtitude").textContent)
+      directionsService.route(
+        {
+          origin: { lat: 49.600117097097446, lng: 6.1331618286266885 },
+          destination: { lat: x, lng: y },
+          travelMode: google.maps.TravelMode[selectedMode],
+        },
+        (response, status) => {
+          if (status == "OK") {
+            directionsRenderer.setDirections(response);
+          } else {
+            window.alert("Directions request failed due to " + status);
+          }
+        }
+      );
+    }
+
+/*
+      function activatePlacesSearch(){
+        var x = parseFloat(document.getElementById("latitude").textContent)
+       // console.log(x);
+
+        var y = parseFloat(document.getElementById("longtitude").textContent)
+      // console.log(y);
+        var searchinput = document.getElementById("map");
+        var map = new google.maps.Map(searchinput, {      
+          center: { lat: x, lng:  y },
+          zoom: 4
+        });
+        var marker = new google.maps.Marker({
+          position: { lat: x , lng: y  },
+          map: map
+        });
+      }
+*/  
+  </script>
+  <script type="text/javascript">
+    function getDirection(){
+      var directionsService = new google.maps.DirectionsService();
+      var x = 49.502212333049634;
+      var y = 5.941235573435155;
+      var latDes = parseFloat(document.getElementById("latitude").textContent);
+      var longDes =   parseFloat(document.getElementById("longtitude").textContent);
+      console.log(latDes + " - "+longDes);
+      var url = "https://www.google.com/maps/dir/?api=1";
+      var origin = "&origin=" + x + "," + y ;
+      var destination = "&destination=" + latDes + "," + longDes;
+      var newUrl = new URL(url + origin + destination);
+      var button = document.getElementById("checkLocation");
+      button.onclick = function() {
+            window.open(newUrl, '_blank');
+      }
+      console.log(newUrl);
+      var win = window.open(newUrl, '_blank');
+      win.focus();
+    }  
+  </script>
+    <script type="text/javascript">
+      function change_visibility() {
+        var x = document.getElementById("reserve");
+        var y = document.getElementById("arriving_date");
+        var z = document.getElementById("leaving_date");
+        var cart = document.getElementById("add_to_cart");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+
+          y.style.display = "inline";
+          z.style.display = "inline";
+          cart.style.display = "inline"
+        }
+      }
+    </script>
+    <script defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxyiFdE6vGJY-sBWSKgesXkk8KS3B2thw&libraries=places&callback=initMap">
+    </script>
 
 <section class="section">
   <div class="container">
@@ -6,14 +116,60 @@
       <div class="col-md-5 mb-4 mb-md-0">
         <div class="sticky-image">
           <img class="img-fluid w-100" src="{{ .Params.Image | absURL }}" alt="{{ .Title }}">
+          <button type="submit" id="reserve" class="btn btn-main btn-main-sm" onclick="change_visibility()">Reserve</button>
+          <div id="arriving_date" style="display: none; " >
+            <h6><span class="c-booking-date__native-input__span">Arriving on</span></h6>
+             <input type="date" id="arriving-date"
+               name="arriving-time" value="2020-12-12">
+            <h7><span class="c-booking-date__native-input__span">Select time</span></h7>
+              <input type="time" id="arriving-time"
+               name="arriving-time" value="12:03:PM"> 
+          </div>
+          <br>
+          <div id="leaving_date"  style="display: none;">
+            <h6><span class="c-booking-date__native-input__span">Leaving on</span></h6>
+              <input type="date" id="leaving-date"
+              name="arriving-time" value="2020-12-12">
+            <h7><span class="c-booking-date__native-input__span">Select time</span></h7>
+              <input type="time" id="leaving-time"
+               name="arriving-time" value="12:03:PM"> 
+          </div>
+          <div>
+            <button id = "add_to_cart" class="snipcart-add-item btn btn-main mb-5" style ="display: none;"
+            data-item-id = {{.Title}}
+            data-item-name = {{.Title}}
+            data-item-image={{.Params.image}}
+            date-item-price={{.Params.price}}
+            data-item-url={{.Permalink}}
+            > {{i18n "add_to_cart"}}
+            </button>
+          </div>
         </div>
       </div>
       <div class="col-lg-6 col-md-7 offset-lg-1">
         <h1 class="mb-4">{{.Title | markdownify}}</h1>
         <div class="content">
           {{.Content}}
+          <a href ="{{ .Params.website}}">{{ .Params.website}}</a>
+        </div>
+          <div>
+          <b>Mode of Travel: </b>
+          <select id="mode">
+            <option value="DRIVING">Driving</option>
+            <option value="WALKING">Walking</option>
+            <option value="BICYCLING">Bicycling</option>
+            <option value="TRANSIT">Transit</option>
+          </select>
+        </div>
+        <div id="map"></div>
+
+        <div style="margin-top: 10px;  position: absolute;">
+           <button id="checkLocation" type="submit" class="btn btn-main btn-main-sm" data-cy="searchform-submit" onclick="getDirection()">Get Direction</button>
+        </div>
         </div>
       </div>
+        <p id = "latitude" style="display:none;">{{ .Params.latitude}}</p>
+        <p id = "longtitude" style="display:none;">{{ .Params.longtitude}}</p>
     </div>
   </div>
 </section>

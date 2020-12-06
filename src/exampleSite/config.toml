@@ -49,8 +49,8 @@ weight = 4
 
 [[menu.main]]
 name = "Near You"
-URL = "blog"
-weight = 3
+URL = "find_near_you"
+weight = 5
 
 [[menu.main]]
 name = "Contact"

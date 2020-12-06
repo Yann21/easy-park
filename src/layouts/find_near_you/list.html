@@ -1,0 +1,138 @@
+{{ define "main" }}
+
+<html>
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Reports</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="google" value="notranslate" />
+    <meta name="application-name" content="GeoLocator" />
+    <meta name="description" content="HTML5&#39;s approach to email" />
+    <meta name="application-url" content="https://developer.mozilla.org" />
+    <meta name="google" content="notranslate" />
+    <link data-chunk="bundle" rel="stylesheet" href="https://static.justpark.com/web/bundle.ef6ff001487ca64ab3b8.css">
+    <link data-chunk="page-home" rel="stylesheet" href="https://static.justpark.com/web/628.9f24dc38724fd5c16afd.css">
+    <link data-chunk="page-home" rel="stylesheet" href="https://static.justpark.com/web/628.9f24dc38724fd5c16afd.css">
+  
+    <script type="text/javascript">
+      var options = {
+          enableHighAccuracy: true,
+          timeout: 5000,
+          maximumAge: 0
+      };
+      var x = null;
+      var loc = null;
+      document.addEventListener('DOMContentLoaded', function ()
+      {
+        x = document.getElementById("demo");
+        loc = document.getElementById("search-box");
+      })
+      var lat = null;
+      var lon = null;
+      function success(position) {
+          lat = position.coords.latitude;
+          lon = position.coords.longitude;
+          var accuracyInMeters = position.coords.accuracy;
+          x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
+      }
+      function error(err)
+      {
+        console.warn('ERROR(' + err.code + '): ' + err.message);
+       switch(err.code) {
+          case err.PERMISSION_DENIED:
+            x.innerHTML = '<span style="color: red;">User denied the request for Geolocation."</span>'
+            break;
+          case err.POSITION_UNAVAILABLE:
+            x.innerHTML = '<span style="color: red;">Location information is unavailable.</span>'
+            break;
+          case err.TIMEOUT:
+            x.innerHTML = '<span style="color: red;">The request to get user location timed out.</span>'
+            break;
+          case err.UNKNOWN_ERROR:
+            x.innerHTML = '<span style="color: red;">An unknown error occurred.</span>'
+            break;
+        }
+      }
+      function getLocation() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(success, error, options); 
+        } else {
+          alert("not supported")
+          x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+      }
+      function submitdata(){
+        location.href = "results.html";
+      }
+    </script>
+
+    <script>
+      function activatePlacesSearch(){
+        var searchinput = document.getElementById("search-box");
+        var autocomplete = new google.maps.places.Autocomplete(searchinput);        
+      }
+    </script>
+    <script defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxyiFdE6vGJY-sBWSKgesXkk8KS3B2thw&libraries=places&callback=activatePlacesSearch">
+    </script>
+
+    <style type="text/css" media="all">
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <div class="brand_logo_container">
+            {{ range .Params.images }}
+            <div data-image="{{ . | absURL }}">
+              <img class="img-fluid w-100" src="{{ . | absURL }}" alt="logo-image">
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        <form action="http://localhost:1313/vex-hugo/blog" class="c-searchform c-searchform--single" method="GET">
+          <div class="c-tab__content">
+            <div class="c-tab-item">
+        
+            </div>
+          </div>
+          <div class="c-predictive-search-input__container     c-predictive-search-input__show_google " data-cy="c-predictive-search-input__container">
+            <div class="c-predictive-search-input__input-container">
+              <input type="text" id="search-box" name="q" class="form-control c-focus-geolocation__input" placeholder="Where do you want to park?" autocomplete="off" spellcheck="false" value="">
+              <div class="c-predictive-search-input__geolocation-button-container">
+                <button type="button" class="c-predictive-search-input__geolocation-button c-focus-geolocation__button hide-text" name="lat_lon" value="" onclick="getLocation()">Use my current location.</button>
+              </div>
+            </div>
+          </div><!-- 
+          <div class="c-booking-date__container ">
+            <div class="c-booking-date c-booking-date--single ">
+              <div class="c-booking-date__native-input c-booking-date__native-input--from">
+                <div class="c-booking-date__date c-booking-date__date--single  c-booking-date__date--enabled c-booking-date__date--valid">
+                  <h6><span class="c-booking-date__native-input__span">Arriving on</span></h6>
+                  <span class="c-booking-date__date-display" data-cy="booking-start-date">Today at 18:15</span>
+                  <svg viewBox="0 0 12 12" class="c-booking-date__native-input__chevron"><path fill-rule="evenodd" d="M9.866 9.149c.488.468 1.28.468 1.768 0a1.166 1.166 0 000-1.698l-4.75-4.6a1.287 1.287 0 00-1.768 0l-4.75 4.6a1.166 1.166 0 000 1.698c.488.468 1.28.468 1.768 0L6 5.397 9.866 9.15z"></path></svg>
+                </div>
+              </div>
+            </div>
+            <input type="hidden" name="start_date" value="07 Nov 2020">
+            <input type="hidden" name="start_time" value="18:15:00">
+          </div> -->
+          <div style = "margin-top: 20px;" align="center";>
+          <button type="submit" class="btn btn-main btn-main-sm" data-cy="searchform-submit" onclick="submitdata()">Search for parking spaces</button>
+        </div>
+        </form>
+        <p id = "demo"></p>
+      </div>
+  </body>
+</html>
+
+{{ end }}

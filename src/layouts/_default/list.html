@@ -1,5 +1,32 @@
 {{ define "main" }}
-
+<script type="text/javascript">
+  console.log(window.location.search.substr(1));
+  window.onload = function() {
+    document.getElementById("test").innerHTML = parseUrl();
+  }
+  function parseUrl() {
+    var items = location.search.substr(1).split("%");
+    if(items[0].includes("City+Center")){
+      findGetParameter(items,"Luxembourg City Center");
+    }
+    else{
+      findGetParameter(items,"Belval");
+    }
+  }
+  function findGetParameter(items, parameterName) {
+    var result = null, tmp = [];
+    for (var index = 0; index < items.length; index++) {
+        tmp = items[index].split("+");
+        for(var i = 0; i<tmp.length; i++){
+          if(parameterName.includes(tmp[i])){
+            result = parameterName;
+          }
+        }
+    }
+    console.log(result);
+    //return result;
+  }
+</script>
 <section class="feature-list section">
   <div class="container">
     <div class="row">
@@ -15,8 +42,9 @@
       </div>
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
-          <h4 class="subheading">{{ .Title | markdownify }}</h4>
+          <h4 class="subheading"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h4>
           <p>{{ .Summary }}</p>
+          <p id = "test" style="display: none;"></p>
           <a href="{{ .Permalink }}" class="btn btn-main btn-main-sm">{{ i18n "read_more" }}</a>
         </div>
       </div>
@@ -25,7 +53,7 @@
     <div class="row mb-40">
       <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
         <div class="content">
-          <h4 class="subheading">{{ .Title | markdownify }}</h4>
+          <h4 class="subheading"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h4>
           <p>{{ .Summary }}</p>
           <a href="{{ .Permalink }}" class="btn btn-main btn-main-sm">{{ i18n "read_more" }}</a>
         </div>

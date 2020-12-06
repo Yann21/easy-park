@@ -1,11 +1,11 @@
 ---
-title: "Parking Adolphe Fischer (Vinci Park)"
+title: "TEST Parking Adolphe Fischer (Vinci Park)%Belval parking"
 date: 2019-10-17T11:22:16+06:00
 image: "images/showcase/gare_1.png"
 website: "https://lu.parkindigo.com/en"
 latitude: "49.60190317899148"
 longtitude: "6.127282911292355"
-price: "4.99"
+price: "13.99"
 description : "this is a meta description"
 draft: false
 ---

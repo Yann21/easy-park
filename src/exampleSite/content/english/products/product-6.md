@@ -1,8 +1,8 @@
 ---
-title: "Salt Lake City, 401 Wall Mart"
+title: "Parking Belval Plaza (Vinci Park)"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/showcase/showcase-6.png"
+  - "images/showcase/showcase-14.png"
   - "images/showcase/showcase-2.png"
   - "images/showcase/showcase-3.png"
   - "images/showcase/showcase-4.png"
@@ -11,7 +11,7 @@ images:
 description : "this is meta description"
 
 # product Price
-price: "3.99 / hour"
+price: "3.99"
 
 # product variation
 sizes : ["All"]

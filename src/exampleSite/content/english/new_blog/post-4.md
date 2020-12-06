@@ -5,7 +5,7 @@ image: "images/showcase/gare_4.png"
 website: "https://www.vdl.lu/en/getting-around/by-car/parkings-and-pr/fort-wedell"
 latitude: "49.60003540449544"
 longtitude: "6.129523068962355"
-price: "20.99"
+price: "13.99"
 description : "this is a meta description"
 draft: false
 ---
