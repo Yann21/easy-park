@@ -16,9 +16,8 @@ A website that helps people find the nearest parking spot based on their locatio
 `brew install hugo`
 
 ## Test the website
-1. `cd src/exampleSite`
-2. `hugo server --themesDir ../..`
-3. Open `localhost:portnumber/vex-hugo` in your browser
+1. `./launch_server.sh`
+2. Open `localhost:portnumber/vex-hugo` in your browser
 
 ## Project Description
 The goal of this project is to plan and organize a website that uses a few resources like fuel, time and space. This website will help people to achieve a faster, easier and denser parking of their vehicles of the majority of time they remain idle.
