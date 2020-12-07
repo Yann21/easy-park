@@ -24,3 +24,6 @@
 
 - id: "register_user"
   translation: "Register"
+
+- id: "view_more"
+  translation: "View more"
