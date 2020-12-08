@@ -10,7 +10,7 @@
   "numSizeM": 132,
   "numSizeL": 100,
   "numDisable": 3,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "17 Place Du Théâtre",
   "zipCode": "2613",
   "loc": {
@@ -30,7 +30,7 @@
   "numSizeM": 497,
   "numSizeL": 250,
   "numDisable": 10,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "21 Allèe Scheffer",
   "zipCode": "2520",
   "loc": {
@@ -50,7 +50,7 @@
   "numSizeM": 3250,
   "numSizeL": 2200,
   "numDisable": 50,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "Zone industrielle rolach",
   "zipCode": "5280",
   "loc": {
@@ -70,7 +70,7 @@
   "numSizeM": 146,
   "numSizeL": 100,
   "numDisable": 4,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "4A Rue Notre Dame",
   "zipCode": "2240",
   "loc": {
@@ -90,7 +90,7 @@
   "numSizeM": 294,
   "numSizeL": 150,
   "numDisable": 9,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "43 Rue du Fort Neipperg",
   "zipCode": "2230",
   "loc": {
@@ -110,7 +110,7 @@
   "numSizeM": 96,
   "numSizeL": 50,
   "numDisable": 4,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "20 Rue du Laboratoire",
   "zipCode": "1911",
   "loc": {
@@ -130,7 +130,7 @@
   "numSizeM": 48,
   "numSizeL": 20,
   "numDisable": 2,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "32 Rue du Fort Neipperg",
   "zipCode": "2230",
   "loc": {
@@ -150,7 +150,7 @@
   "numSizeM": 56,
   "numSizeL": 20,
   "numDisable": 4,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "83 Rue de Strasbourg",
   "zipCode": "2561",
   "loc": {
@@ -170,7 +170,7 @@
   "numSizeM": 360,
   "numSizeL": 150,
   "numDisable": 7,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "73 Rue du Fort Neipperg",
   "zipCode": "2230",
   "loc": {
@@ -190,7 +190,7 @@
   "numSizeM": 116,
   "numSizeL": 100,
   "numDisable": 4,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "1 Rue du Commerce",
   "zipCode": "1351",
   "loc": {
@@ -210,7 +210,7 @@
   "numSizeM": 146,
   "numSizeL": 60,
   "numDisable": 4,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "Rives de Clausen",
   "zipCode": "2165",
   "loc": {
@@ -230,7 +230,7 @@
   "numSizeM": 142,
   "numSizeL": 100,
   "numDisable": 8,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "Rue Érasme",
   "zipCode": "1468",
   "loc": {
@@ -250,7 +250,7 @@
   "numSizeM": 136,
   "numSizeL": 100,
   "numDisable": 4,
-  "price": "1EUR/h",
+  "price": "6.49$/h",
   "address": "24b Avenue Monterey",
   "zipCode": "2163",
   "loc": {
@@ -270,7 +270,7 @@
   "numSizeM": 118,
   "numSizeL": 30,
   "numDisable": 2,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "plt. du St Esprit",
   "zipCode": "1475",
   "loc": {
@@ -290,7 +290,7 @@
   "numSizeM": 155,
   "numSizeL": 120,
   "numDisable": 5,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "Rue d'Ostende",
   "zipCode": "2271",
   "loc": {
@@ -310,7 +310,7 @@
   "numSizeM": 144,
   "numSizeL": 130,
   "numDisable": 6,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "41 Avenue Monterey",
   "zipCode": "2163",
   "loc": {
@@ -330,7 +330,7 @@
   "numSizeM": 148,
   "numSizeL": 130,
   "numDisable": 6,
-  "price": "1EUR/h",
+  "price": "9.99$/h",
   "address": "Boulevard Konrad Adenauer",
   "zipCode": "1115",
   "loc": {
@@ -350,7 +350,7 @@
   "numSizeM": 280,
   "numSizeL": 150,
   "numDisable": 13,
-  "price": "1EUR/h",
+  "price": "4.99$/h",
   "address": "6 Rue Erasme",
   "zipCode": "1468",
   "loc": {
@@ -370,7 +370,7 @@
   "numSizeM": 700,
   "numSizeL": 300,
   "numDisable": 100,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "20 rue Hugo Gernsback",
   "zipCode": "1652",
   "loc": {
@@ -390,7 +390,7 @@
   "numSizeM": 1230,
   "numSizeL": 500,
   "numDisable": 8,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "61 Rue de Bouillon",
   "zipCode": "1248",
   "loc": {
@@ -410,7 +410,7 @@
   "numSizeM": 290,
   "numSizeL": 100,
   "numDisable": 10,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "Park Drai Eechelen",
   "zipCode": "1499",
   "loc": {
@@ -430,13 +430,113 @@
   "numSizeM": 166,
   "numSizeL": 50,
   "numDisable": 4,
-  "price": "1EUR/h",
+  "price": "3.49$/h",
   "address": "49 Allée Scheffer",
   "zipCode": "2520",
   "loc": {
   "type": "Point",
   "coordinates": [49.61800, 6.12517]
   } 
+  },
+  
+  {
+  "_id": "P23",
+  "countryID": "ParkingLux",
+  "name": "P+R Lux Sud",
+  "lunchTime": "1230-1400",
+  "dinnerTime": "1900-2200",
+  "totalNum": 335,
+  "numSizeS": 100,
+  "numSizeM": 132,
+  "numSizeL": 100,
+  "numDisable": 3,
+  "price": "3.49$/h",
+  "address": "1 Rue In Bouler",
+  "zipCode": "1350",
+  "loc": {
+  "type": "Point",
+  "coordinates": [49.579070, 6.127070]
+  } 
+  },
+  
+  {
+  "_id": "P24",
+  "countryID": "ParkingLux",
+  "name": "Parking Belval Plaza",
+  "lunchTime": "1230-1400",
+  "dinnerTime": "1900-2200",
+  "totalNum": 335,
+  "numSizeS": 100,
+  "numSizeM": 132,
+  "numSizeL": 100,
+  "numDisable": 3,
+  "price": "3.99$/h",
+  "address": "7 Avenue du Rock'n'Roll",
+  "zipCode": "4360",
+  "loc": {
+  "type": "Point",
+  "coordinates": [49.500540, 5.946050]
+  } 
+  },
+  
+  {
+  "_id": "P25",
+  "countryID": "ParkingLux",
+  "name": "Parking de la gare Schifflange",
+  "lunchTime": "1230-1400",
+  "dinnerTime": "1900-2200",
+  "totalNum": 335,
+  "numSizeS": 100,
+  "numSizeM": 132,
+  "numSizeL": 100,
+  "numDisable": 3,
+  "price": "3.99$/h",
+  "address": "2, rue A. Kayser",
+  "zipCode": "3852",
+  "loc": {
+  "type": "Point",
+  "coordinates": [49.506310, 6.009780]
+  } 
+  },
+  
+  {
+  "_id": "P26",
+  "countryID": "ParkingLux",
+  "name": "Parking Gare Bettembourg",
+  "lunchTime": "1230-1400",
+  "dinnerTime": "1900-2200",
+  "totalNum": 335,
+  "numSizeS": 100,
+  "numSizeM": 132,
+  "numSizeL": 100,
+  "numDisable": 3,
+  "price": "2.49$/h",
+  "address": "1014-1980 Rue de la Briquetterie",
+  "zipCode": "3260",
+  "loc": {
+  "type": "Point",
+  "coordinates": [50.351640, 2.603220]
+  } 
+  },
+  
+  {
+  "_id": "P27",
+  "countryID": "ParkingLux",
+  "name": "Parking Adolphe Fischer (Vinci Park)",
+  "lunchTime": "1230-1400",
+  "dinnerTime": "1900-2200",
+  "totalNum": 335,
+  "numSizeS": 100,
+  "numSizeM": 132,
+  "numSizeL": 100,
+  "numDisable": 3,
+  "price": "4.99$/h",
+  "address": "75 Rue Adolphe Fischer",
+  "zipCode": "1520",
+  "loc": {
+  "type": "Point",
+  "coordinates": [49.601720, 6.127640]
+  } 
   }
+  
   ] 
-
