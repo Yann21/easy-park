@@ -1,52 +1,59 @@
 [
+    
   {
   "_id": "order001",
-  "username": "YannF",
-  "parkingName": "Parking du Théâtre",
-  "parkingAddress": "17 Place Du Théâtre",
-  "date": "06/12/2020",
-  "duration": "2h",
-  "amount": "2EUR"
+  "username": "Testing",
+  "parkingName": "Fort Wedell",
+  "parkingAddress": "1 Rue du Commerce",
+  "date": "07/12/2020 8:30",
+  "latitude": "49.6291703",
+  "longitude": "6.0224444",
+  "duration": "1h",
+  "price": "3.49$",
+  "visited": "82 times",
+  "description": "Parking with a guard 24/24 making a big difference from other parking spaces. The most secure parking lot in the neighborhood. Save your money and have your car under control. The parking spot is located in the Center district, with easy access on foot, equidistant from the city center, the airport and the Kirchberg business district. The customers are more than welcome to ask for any help or advice regarding the payment or in general the parking lot."
   },
-
+  
   {
   "_id": "order002",
-  "username": "AbetA",
-  "parkingName": "Gare",
-  "parkingAddress": "43 Rue du Fort Neipperg",
-  "date": "04/12/2020",
-  "duration": "4h",
-  "amount": "4EUR"
+  "username": "Testing",
+  "parkingName": "Parking Adolphe Fischer (Vinci Park)",
+  "parkingAddress": "75 Rue Adolphe Fischer",
+  "date": "12/10/2020 16:20",
+  "latitude": "49.601720",
+  "longitude": "6.127640",
+  "duration": "1h",
+  "price": "4.99$",
+  "visited": "82 times",
+  "description": "With the management and maintenance of 2577 timestamps – approximately 63,600 on-street places – in 16 municipalities of the country, Indigo is the leader of this sector to the Luxembourg. Varied payment methods allow users to conduct their transactions in cash, by card Visa / MasterCard or by V – Pay, and this on almost all of the supply road from Indigo to the Luxembourg."
   },
-
+  
   {
   "_id": "order003",
-  "username": "PinZ",
-  "parkingName": "ParkingLux",
-  "parkingAddress": "21 Allèe Scheffer",
-  "date": "05/12/2020",
-  "duration": "3h",
-  "amount": "3EUR"
+  "username": "Testing",
+  "parkingName": "Neipperg",
+  "parkingAddress": "73 Rue du Fort Neipperg",
+  "date": "09/11/2020 13:10",
+  "latitude": "49.601487",
+  "longitude": "6.1341199",
+  "duration": "1h",
+  "price": "3.49$",
+  "visited": "82 times",
+  "description": "Beautiful parking garage with good lighting and space, FIRST 4 HOURS FREE, then 0.40 euro cents per hour, more than 15 minutes walk from the center. A very clean parking spot, with an big parking space. Perfect for any type of car."
   },
   
   {
   "_id": "order004",
-  "username": "GuinW",
-  "parkingName": "Monterey",
-  "parkingAddress": "24b Avenue Monterey",
-  "date": "01/12/2020",
-  "duration": "2h",
-  "amount": "2EUR"
-  },
-  
-  {
-  "_id": "order005",
-  "username": "YannF",
-  "parkingName": "Coque",
-  "parkingAddress": "6 Rue Erasme",
-  "date": "02/12/2020",
-  "duration": "3h",
-  "amount": "3EUR"
-  },
+  "username": "Testing",
+  "parkingName": "Neipperg",
+  "parkingAddress": "73 Rue du Fort Neipperg",
+  "date": "06/12/2020 14:20",
+  "latitude": "49.601487",
+  "longitude": "6.1341199",
+  "duration": "1h",
+  "price": "3.49$",
+  "visited": "20 times",
+  "description": "Testingggggg Beautiful parking garage with good lighting and space, FIRST 4 HOURS FREE, then 0.40 euro cents per hour, more than 15 minutes walk from the center. A very clean parking spot, with an big parking space. Perfect for any type of car."
+  }
   
   ]
