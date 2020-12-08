@@ -1,6 +1,25 @@
 [
+  
   {
   "_id": "seller0001",
+  "lastName": "Profile",
+  "firstName": "User",
+  "username": "UseP",
+  "password": "123456y",
+  "birthday": "xx/xx/xxxx",
+  "email": "test@test.com",
+  "age": "24",
+  "sex": "M",
+  "address": "University of Luxembourg, Belval, 4367, Luxembourg",
+  "phone": "+352661367689",
+  "parkingSpaceAddress": "rue xxxx",
+  "parkingSpaceID": "50A",
+  "nr_posts": "Number of posts: 2",
+  "description": "I am a student living in Luxembourg. I own a BMW and would like to keep my car safe therefore I find this website very useful!"
+  },
+  
+  {
+  "_id": "seller0002",
   "lastName": "Hoffmann",
   "firstName": "Yann",
   "username": "YannF",
@@ -12,11 +31,13 @@
   "address": "rue xxxx",
   "phone": "+352xxxxxxxxx",
   "parkingSpaceAddress": "rue xxxx",
-  "parkingSpaceID": "46D"
+  "parkingSpaceID": "46D",
+  "nr_posts": "Number of posts: 1",
+  "description": "I am a student living in Luxembourg. I own a BMW and would like to keep my car safe therefore I find this website very useful!"
   },
   
   {
-  "_id": "seller0002",
+  "_id": "seller0003",
   "lastName": "Shabani",
   "firstName": "Abetare",
   "username": "AbetA",
@@ -28,11 +49,13 @@
   "address": "rue xxxx",
   "phone": "+352xxxxxxxxx",
   "parkingSpaceAddress": "rue xxxx",
-  "parkingSpaceID": "20B"
+  "parkingSpaceID": "20B",
+  "nr_posts": "Number of posts: 1",
+  "description": "I am a student living in Luxembourg. I own a BMW and would like to keep my car safe therefore I find this website very useful!"
   },
   
   {
-  "_id": "seller0003",
+  "_id": "seller0004",
   "lastName": "Zhu",
   "firstName": "Pin",
   "username": "PinZ",
@@ -44,11 +67,13 @@
   "address": "rue xxxx",
   "phone": "+352xxxxxxxxx",
   "parkingSpaceAddress": "rue xxxx",
-  "parkingSpaceID": "66A"
+  "parkingSpaceID": "66A",
+  "nr_posts": "Number of posts: 1",
+  "description": "I am a student living in Luxembourg. I own a BMW and would like to keep my car safe therefore I find this website very useful!"
   },
   
   {
-  "_id": "seller0004",
+  "_id": "seller0005",
   "lastName": "Weng",
   "firstName": "Guina",
   "username": "GuinW",
@@ -60,6 +85,9 @@
   "address": "rue xxxx",
   "phone": "+352xxxxxxxxx",
   "parkingSpaceAddress": "rue xxxx",
-  "parkingSpaceID": "55C"
+  "parkingSpaceID": "55C",
+  "nr_posts": "Number of posts: 1",
+  "description": "I am a student living in Luxembourg. I own a BMW and would like to keep my car safe therefore I find this website very useful!"
   }
+  
   ]
